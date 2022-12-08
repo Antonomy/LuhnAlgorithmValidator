@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css'
+import { useState } from "react"
+import InputField from "./components/InputField"
+import ValidationResult from "./components/ValidationResult"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    const [luhn, setLuhn] = useState(false)
+
+    const runVerification = (e) => {
+        e.target.value ?
+            setLuhn(true)
+            :
+            setLuhn(false)
+
+    }
+
+    return (
+        <div className="App">
+            <InputField runVerification={runVerification} />
+            <ValidationResult luhn={luhn} />
+        </div>
+    )
 }
-
-export default App;
