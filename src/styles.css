@@ -1,3 +1,23 @@
-*{
-    background: tan
+body {
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    background-color: teal;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    border: 1rem solid black;
+    color: bisque;
+
+}
+
+#true {
+    color: lightgreenl
+}
+
+#false {
+    color: lightcoral;
 }
