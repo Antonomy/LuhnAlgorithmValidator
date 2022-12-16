@@ -1,7 +1,7 @@
 export default function ValidationResult(props) {
     return (
       <div className="validation-result">
-        {props.luhn? <p>true</p> :<p>false</p>}
+        {props.luhn? <p id="valid">VALID</p> :<p id="invalid">INVALID</p>}
       </div>
     )
   }

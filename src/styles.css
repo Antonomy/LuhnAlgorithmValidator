@@ -14,10 +14,13 @@ body {
 
 }
 
-#true {
-    color: lightgreenl
+#valid {
+    color: lightgreen;
+    font-weight: bold;
+    
 }
 
-#false {
+#invalid {
     color: lightcoral;
+    font-weight: bold;
 }
