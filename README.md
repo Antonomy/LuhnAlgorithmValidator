@@ -60,7 +60,7 @@ This simple REACT application provides all the basic and necessary functionality
 # Getting Started
 
 ## How to set this up locally
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
