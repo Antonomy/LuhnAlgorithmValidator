@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
+  <a href="https://github.com/Antonomy/LuhnAlgorithmValidator">
+    <img src="https://avatars.githubusercontent.com/u/24372514?v=4" alt="Logo" width="80" height="80">
+  </a>
 
-## Available Scripts
+<h3 align="center">Luhn Algorithm Validation</h3>
 
-In the project directory, you can run:
+  <p align="center">
+All the basic and necessary functionality needed to validate numbers against the Luhn Algorithm
+    <br />
+    <a href="https://github.com/Antonomy/LuhnAlgorithmValidator"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://github.com/Antonomy/LuhnAlgorithmValidator">View Demo</a>
+    ·
+    <a href="https://github.com/Antonomy/LuhnAlgorithmValidator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Antonomy/LuhnAlgorithmValidator/issues">Request Feature</a>
+  </p>
+</div>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+<br />
 
-### `npm start`
+## About The Project
+This simple REACT application provides all the basic and necessary functionality needed to validate numbers against the `Luhn Algorithm`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![LuhnAlgorithmValidator](./public/images/app_image.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* REACT
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to set this up locally
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- None!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Get Excited! - Good or bad, you're embarking on a new adventure!
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Antonomy/LuhnAlgorithmValidator.git
+   ```
+3. Start Front-End
+   ```
+   npm run react
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Roadmap
 
-## Learn More
+- [x] Properly validates a number against the Luhn Algorithm
+- [ ] Modernize Styling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+See the [open issues](https://github.com/Antonomy/LuhnAlgorithmValidator/issues) for a full list of proposed features (and known issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star ⭐! Thanks again!
 
-### Making a Progressive Web App
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Contact
 
-### Deployment
+Antony Yu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Email: antonyyu@gmail.com
 
-### `npm run build` fails to minify
+[Connect on LinkedIn](https://www.linkedin.com/in/antonyyu/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+# Acknowledgments
+
+* First, I thank myself because I worked hard on this and I'm proud of myself.
+* Friends and Family - Life wouldn't be as fun without you in it. Thank you for putting up with me.
+* Third Degree Burns Family - We made it through and you were all a part of making me the engineer I am.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
