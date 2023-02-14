@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LuhnAlgorithmValidator/static/css/main.613203da.css",
+    "main.js": "/LuhnAlgorithmValidator/static/js/main.5bf4ff6d.js",
+    "index.html": "/LuhnAlgorithmValidator/index.html",
+    "main.613203da.css.map": "/LuhnAlgorithmValidator/static/css/main.613203da.css.map",
+    "main.5bf4ff6d.js.map": "/LuhnAlgorithmValidator/static/js/main.5bf4ff6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613203da.css",
+    "static/js/main.5bf4ff6d.js"
+  ]
+}
